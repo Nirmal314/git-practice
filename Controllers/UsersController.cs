@@ -106,6 +106,6 @@ public class UsersController : ControllerBase
     }
        public IActionResult Nilesh_Update(int id)
     {
-        return Ok($"This is new  NileshUpdate {id}");
+        return Ok($"This is new  Nilesh_Update {id}");
     }
 }
