@@ -96,4 +96,8 @@ public class UsersController : ControllerBase
     {
         return Ok($"This demo {id}");
     }
+    public IActionResult demo_3(int id)
+    {
+        return Ok($"This is demo {id}");
+    }
 }
