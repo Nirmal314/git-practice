@@ -92,4 +92,8 @@ public class UsersController : ControllerBase
     {
         return Ok($"This is Nilesh {id}");
     }
+    public IActionResult demo_2(int id)
+    {
+        return Ok($"This is demo {id}");
+    }
 }
