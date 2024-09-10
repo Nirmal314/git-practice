@@ -77,4 +77,9 @@ public class UsersController : ControllerBase
 
         return BadRequest();
     }
+
+    public IActionResult Om_method()
+    {
+        return Ok("This is Om Patel");
+    }
 }
