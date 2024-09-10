@@ -88,9 +88,20 @@ public class UsersController : ControllerBase
     {
         return Ok($"This is Om Patel,this is my second pull req {id}");
     }
+    public IActionResult Nilesh_method(int id)
+    {
+        return Ok($"This is Nilesh {id}");
+    }
+    public IActionResult demo_2(int id)
+    {
+        return Ok($"This is demo {id}");
+    }
     public IActionResult demo(int id)
     {
         return Ok($"This demo {id}");
     }
-
+    public IActionResult demo_3(int id)
+    {
+        return Ok($"This is demo {id}");
+    }
 }
