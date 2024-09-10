@@ -84,9 +84,9 @@ public class UsersController : ControllerBase
         return Ok($"user with id = {id}");
     }
 
-    public IActionResult Om_method()
+    public IActionResult Om_method(int id)
     {
-        return Ok("This is Om Patel,this is my second pull req");
+        return Ok($"This is Om Patel,this is my second pull req {id}");
     }
     public IActionResult Nilesh_method(int id)
     {
