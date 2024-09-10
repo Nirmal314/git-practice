@@ -77,4 +77,10 @@ public class UsersController : ControllerBase
 
         return BadRequest();
     }
+
+    [HttpGet("{id}")]
+    public IActionResult ViewUser(int id)
+    {
+        return Ok($"user with id = {id}");
+    }
 }
