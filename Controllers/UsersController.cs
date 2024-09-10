@@ -88,4 +88,8 @@ public class UsersController : ControllerBase
     {
         return Ok("This is Om Patel,this is my second pull req");
     }
+    public IActionResult Nilesh_method(int id)
+    {
+        return Ok($"This is Nilesh {id}");
+    }
 }
