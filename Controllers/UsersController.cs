@@ -104,4 +104,8 @@ public class UsersController : ControllerBase
     {
         return Ok($"This is demo {id}");
     }
+       public IActionResult Nilesh_Update(int id)
+    {
+        return Ok($"This is Nilesh_Update {id}");
+    }
 }
