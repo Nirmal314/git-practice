@@ -35,7 +35,8 @@ public class UsersController : ControllerBase
         {
             return NotFound();
         }
-
+        Console.WriteLine("hello world!");
+        Console.WriteLine("hello world!");
         return Ok(user);
     }
 
